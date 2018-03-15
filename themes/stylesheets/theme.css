@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F7F7F7;
+    color: #3C3C3C;
+    font-family: Helvetica, Tahoma, Arial, sans-serif;
+    font-size: 10pt;
+    background-image: url('../images/background.png');
+}
+
+a {
+    color: #A7C917;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    vertical-align: top;
+}
+
+h1 {
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 10pt;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.Content {
+    width: 968px;
+    margin: 0px auto;
+}
+
+#Menu {
+    text-align: center;
+    background-image: url('../images/menu-background.png');
+    background-repeat: repeat-x;
+}
+
+#Menu ul {
+    list-style-type: none;
+    height: 98px;
+}
+
+#Menu ul li {
+    display: inline-block;
+    height: 98px !important;
+    width: 118px;
+}
+
+#Menu ul li:hover {
+    background-position: 0px 98px;
+    cursor: crosshair;
+}
+
+#Menu ul li.active {
+    background-position: 0px 98px;
+}
+
+#Menu ul li.first {
+    width: 121px !important;
+}
+
+#Menu ul li.last {
+    width: 121px !important;
+}
+
+li.home {
+    background-image: url('../images/menu-home.png');
+}
+
+li.experience {
+    background-image: url('../images/menu-experience.png');
+}
+
+li.competences {
+    background-image: url('../images/menu-competences.png');
+}
+
+li.formation {
+    background-image: url('../images/menu-formation.png');
+}
+
+li.projets {
+    background-image: url('../images/menu-projets.png');
+}
+
+li.photos {
+    background-image: url('../images/menu-photos.png');
+}
+
+li.creations {
+    background-image: url('../images/menu-creations.png');
+}
+
+li.contact {
+    background-image: url('../images/menu-contact.png');
+}
+
+#Header {
+    background-image: url('../images/header-background.png');
+    background-repeat: repeat-x;
+    height: 208px;
+}
+
+#Title {
+    width: 100%;
+    text-align: right;
+    padding: 20px 0;
+}
+
+#Page {
+    background-image: url('../images/page-background.png');
+    padding: 20px 0;
+}
+
+#Page .Content {
+	width: 960px;
+}
+
+#Bottom {
+    background-image: url('../images/page-bottom.png');
+    background-repeat: repeat-x;
+    height: 20px;    
+}
+
+#Mention {
+    width: 850px;
+    margin: 20px auto 40px;
+    text-align: right;
+    color: #CCCCCC;
+    font-size: 8pt;
+}
+
+#Footer {
+    width: 850px;
+    margin: 20px auto 40px;
+    text-align: center;
+    color: #CCCCCC;
+    font-size: 8pt;
+}
+
+#FooterMenu {
+    text-align: center;
+    color: #CCCCCC;
+    font-size: 8pt;
+}
+
+hr.Separator {
+    height: 1px;
+    background-color: #EDEDED;
+    border: 0;
+    margin: 20px 0;
+}
+
+.cleaner {
+    clear: both;
+}
+
+#Left {
+    float: left;
+    width: 510px;
+}
+
+#Left .links {
+    border-top : 1px solid #CFCFCF;
+    border-bottom : 1px solid #CFCFCF;
+}
+
+#Left .links p {
+    text-align: center;
+}
+
+#Right {
+    width: 402px;
+    float: right;
+}
+
+#Right p {
+    padding: 9px;
+}
+
+h2 {
+    color: #A7C917;
+    font-size: 14pt;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+}
+
+p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+/* ************************************************************************** */
+
+.Picto {
+    float: left;
+    width: 290px;
+    padding-top: 9px;
+}
+
+.Description {
+    margin-left: 290px;
+    padding-top: 9px;
+}
+
+.Description h3 {
+    color: #A7C917;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.Description p {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.Description h4 {
+    font-size: 10pt;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+.separate {
+    border-top: 1px solid #CCCCCC;
+}
+
+.Preview {
+    float: left;
+    padding: 20px 18px;
+}
+
+
+
+#Form {
+    width: 480px;
+    margin-left: 40px;
+}
+
+#Form input {
+    padding: 10px 0;
+}
+
+/* ************************************************************************** */
+
+#Contact {
+	border-right: 1px solid #CCCCCC;
+	width: 600px;
+	float: left;
+	padding-left: 29px;
+}
+
+#Contact label { 
+    width: 10em; float: left; 
+}
+
+#Contact label.error { 
+    float: none; 
+    color: red; 
+    padding-left: .5em; 
+    vertical-align: top; 
+}
+
+#Contact .submit { 
+    margin-left: 12em; 
+}
+
+#Contact em { 
+    font-weight: bold; 
+    padding-right: 1em; 
+    vertical-align: top; 
+}
+
+#Contact p.form { 
+    clear: both; 
+}
+
+#Me {
+	padding-left: 29px;
+	float: left;
+}
+
+#Send {
+	margin: 40px;
+}

@@ -1,0 +1,6 @@
+# @file .htaccess
+# @author Caro Noyer
+# @date 2012-09-09
+
+Options -Indexes
+deny from all
